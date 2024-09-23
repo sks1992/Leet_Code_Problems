@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c07206c1-63c5-407f-9c9a-d042e3c2767b" name="Changes" comment="Leet code problem 1768. Merge Strings Alternately">
-      <change afterPath="$PROJECT_DIR$/src/Leet_Code_75_Problems/LT_75_2_1071_Greatest_Common_Divisor_of_Strings.kt" afterDir="false" />
+    <list default="true" id="c07206c1-63c5-407f-9c9a-d042e3c2767b" name="Changes" comment="Leet code problem 1071. Greatest Common Divisor of Strings">
+      <change afterPath="$PROJECT_DIR$/src/Leet_Code_75_Problems/LT_75_3_1431_Kids_With_the_Greatest_Number_of_Candies.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,16 +44,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Kotlin.LT_75_1_1768_Merge_Strings_AlternatelyKt.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Kotlin.LT_75_1_1768_Merge_Strings_AlternatelyKt.executor": "Run",
+    "Kotlin.LT_75_3_1431_Kids_With_the_Greatest_Number_of_CandiesKt.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RunManager" selected="Kotlin.LT_75_3_1431_Kids_With_the_Greatest_Number_of_CandiesKt">
     <configuration name="LT_75_1_1768_Merge_Strings_AlternatelyKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Leet_Code_75_Problems.LT_75_1_1768_Merge_Strings_AlternatelyKt" />
       <module name="LeetCode" />
@@ -61,8 +62,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LT_75_3_1431_Kids_With_the_Greatest_Number_of_CandiesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leet_Code_75_Problems.LT_75_3_1431_Kids_With_the_Greatest_Number_of_CandiesKt" />
+      <module name="LeetCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.LT_75_3_1431_Kids_With_the_Greatest_Number_of_CandiesKt" />
         <item itemvalue="Kotlin.LT_75_1_1768_Merge_Strings_AlternatelyKt" />
       </list>
     </recent_temporary>
@@ -84,7 +93,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726709617540</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Leet code problem 1071. Greatest Common Divisor of Strings">
+      <option name="closed" value="true" />
+      <created>1726792162909</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1726792162909</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -100,6 +117,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Leet code problem 1768. Merge Strings Alternately" />
-    <option name="LAST_COMMIT_MESSAGE" value="Leet code problem 1768. Merge Strings Alternately" />
+    <MESSAGE value="Leet code problem 1071. Greatest Common Divisor of Strings" />
+    <option name="LAST_COMMIT_MESSAGE" value="Leet code problem 1071. Greatest Common Divisor of Strings" />
   </component>
 </project>
