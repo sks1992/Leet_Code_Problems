@@ -56,7 +56,7 @@ fun findTheIndexOfTheFirstOccurrenceInAString(haystack: String, needle: String):
         } else {
             // Current characters do not match. Reset haystackPointer back by the amount
             // needlePointer had advanced, then move forward by one to search from next position.
-            haystackPointer -= needlePointer - 1;
+            haystackPointer -= needlePointer - 1
             // Reset needlePointer back to the start of the needle.
             needlePointer = 0
         }
