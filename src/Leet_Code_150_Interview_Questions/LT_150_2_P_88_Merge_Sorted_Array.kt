@@ -59,7 +59,7 @@ fun main() {
 
 // time complexity  = O(m)
 // Space complexity = O(1)
-fun merge(nums1: IntArray, nums2: IntArray, m: Int, n: Int): Unit {
+fun merge(nums1: IntArray, nums2: IntArray, m: Int, n: Int) {
     var i = m - 1
     var j = n - 1
     var k = m + n - 1
