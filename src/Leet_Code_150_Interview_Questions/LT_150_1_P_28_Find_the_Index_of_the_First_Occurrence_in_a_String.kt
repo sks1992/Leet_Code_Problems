@@ -35,6 +35,8 @@ fun main() {
     println(findTheIndexOfTheFirstOccurrenceInAString("hello", "ll"))
 }
 
+//time complexity = O(haystack.length)
+//space complexity = O(1)
 fun findTheIndexOfTheFirstOccurrenceInAString(haystack: String, needle: String): Int {
     //If needle is empty, the index to return is 0 (as per the problem statement).
     if (needle.isEmpty()) return -1
@@ -56,7 +58,8 @@ fun findTheIndexOfTheFirstOccurrenceInAString(haystack: String, needle: String):
         } else {
             // Current characters do not match. Reset haystackPointer back by the amount
             // needlePointer had advanced, then move forward by one to search from next position.
-            haystackPointer -= needlePointer - 1
+            haystackPointer =haystackPointer -  needlePointer + 1
+           // haystackPointer -= needlePointer - 1
             // Reset needlePointer back to the start of the needle.
             needlePointer = 0
         }
@@ -71,6 +74,3 @@ fun findTheIndexOfTheFirstOccurrenceInAString(haystack: String, needle: String):
     // problem statement.
     return -1
 }
-
-
-
