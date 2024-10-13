@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c07206c1-63c5-407f-9c9a-d042e3c2767b" name="Changes" comment="Leet code problem  28. Find the Index of the First Occurrence in a String">
-      <change afterPath="$PROJECT_DIR$/src/Leet_Code_150_Interview_Questions/LT_150_3_P_27_Remove_Element.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leet_Code_150_Interview_Questions/LT_150_4_26_Remove_Duplicates_from_Sorted_Array.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leet_Code_75_Problems/LT_75_4_605_Can_Place_Flowers.kt" afterDir="false" />
+    <list default="true" id="c07206c1-63c5-407f-9c9a-d042e3c2767b" name="Changes" comment="Leet code problems">
+      <change afterPath="$PROJECT_DIR$/src/Leet_Code_150_Interview_Questions/LT_150_5_P_80_Remove_Duplicates_from_Sorted_Array_II.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leet_Code_150_Interview_Questions/LT_150_6_P_58_Length_of_Last_Word.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leet_Code_150_Interview_Questions/LT_150_2_P_88_Merge_Sorted_Array.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leet_Code_150_Interview_Questions/LT_150_2_P_88_Merge_Sorted_Array.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leet_Code_150_Interview_Questions/LT_150_4_26_Remove_Duplicates_from_Sorted_Array.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leet_Code_150_Interview_Questions/LT_150_4_P_26_Remove_Duplicates_from_Sorted_Array.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,15 +52,17 @@
     "Kotlin.LT_150_2_P_88_Merge_Sorted_ArrayKt.executor": "Run",
     "Kotlin.LT_150_3_P_27_Remove_ElementKt.executor": "Debug",
     "Kotlin.LT_150_4_26_Remove_Duplicates_from_Sorted_ArrayKt.executor": "Run",
+    "Kotlin.LT_150_6_P_58_Length_of_Last_WordKt.executor": "Run",
     "Kotlin.LT_75_1_1768_Merge_Strings_AlternatelyKt.executor": "Run",
     "Kotlin.LT_75_3_1431_Kids_With_the_Greatest_Number_of_CandiesKt.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Kotlin.LT_150_4_26_Remove_Duplicates_from_Sorted_ArrayKt">
+  <component name="RunManager" selected="Kotlin.LT_150_6_P_58_Length_of_Last_WordKt">
     <configuration name="LT_150_1_P_28_Find_the_Index_of_the_First_Occurrence_in_a_StringKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Leet_Code_150_Interview_Questions.LT_150_1_P_28_Find_the_Index_of_the_First_Occurrence_in_a_StringKt" />
       <module name="LeetCode" />
@@ -83,15 +84,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LT_150_4_26_Remove_Duplicates_from_Sorted_ArrayKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leet_Code_150_Interview_Questions.LT_150_4_26_Remove_Duplicates_from_Sorted_ArrayKt" />
+    <configuration name="LT_150_4_P_26_Remove_Duplicates_from_Sorted_ArrayKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leet_Code_150_Interview_Questions.LT_150_4_P_26_Remove_Duplicates_from_Sorted_ArrayKt" />
       <module name="LeetCode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LT_75_3_1431_Kids_With_the_Greatest_Number_of_CandiesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leet_Code_75_Problems.LT_75_3_1431_Kids_With_the_Greatest_Number_of_CandiesKt" />
+    <configuration name="LT_150_6_P_58_Length_of_Last_WordKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leet_Code_150_Interview_Questions.LT_150_6_P_58_Length_of_Last_WordKt" />
       <module name="LeetCode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -99,11 +100,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.LT_150_4_26_Remove_Duplicates_from_Sorted_ArrayKt" />
+        <item itemvalue="Kotlin.LT_150_6_P_58_Length_of_Last_WordKt" />
+        <item itemvalue="Kotlin.LT_150_4_P_26_Remove_Duplicates_from_Sorted_ArrayKt" />
         <item itemvalue="Kotlin.LT_150_3_P_27_Remove_ElementKt" />
         <item itemvalue="Kotlin.LT_150_2_P_88_Merge_Sorted_ArrayKt" />
         <item itemvalue="Kotlin.LT_150_1_P_28_Find_the_Index_of_the_First_Occurrence_in_a_StringKt" />
-        <item itemvalue="Kotlin.LT_75_3_1431_Kids_With_the_Greatest_Number_of_CandiesKt" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +181,23 @@
       <option name="project" value="LOCAL" />
       <updated>1728300163611</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Leet code problem  26. Remove Duplicates from Sorted Array">
+      <option name="closed" value="true" />
+      <created>1728816117301</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1728816117301</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Leet code problems">
+      <option name="closed" value="true" />
+      <created>1728816149994</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1728816149994</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -201,6 +218,8 @@
     <MESSAGE value="Leet code problem 28. Find the Index of the First Occurrence in a String" />
     <MESSAGE value="Leet code problem 88. Merge Sorted Array" />
     <MESSAGE value="Leet code problem  28. Find the Index of the First Occurrence in a String" />
-    <option name="LAST_COMMIT_MESSAGE" value="Leet code problem  28. Find the Index of the First Occurrence in a String" />
+    <MESSAGE value="Leet code problem  26. Remove Duplicates from Sorted Array" />
+    <MESSAGE value="Leet code problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="Leet code problems" />
   </component>
 </project>
