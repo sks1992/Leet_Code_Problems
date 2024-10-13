@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c07206c1-63c5-407f-9c9a-d042e3c2767b" name="Changes" comment="Leet code problem 1071. Greatest Common Divisor of Strings">
-      <change afterPath="$PROJECT_DIR$/src/Leet_Code_75_Problems/LT_75_3_1431_Kids_With_the_Greatest_Number_of_Candies.kt" afterDir="false" />
+    <list default="true" id="c07206c1-63c5-407f-9c9a-d042e3c2767b" name="Changes" comment="Leet code problem  28. Find the Index of the First Occurrence in a String">
+      <change afterPath="$PROJECT_DIR$/src/Leet_Code_150_Interview_Questions/LT_150_3_P_27_Remove_Element.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leet_Code_150_Interview_Questions/LT_150_4_26_Remove_Duplicates_from_Sorted_Array.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leet_Code_75_Problems/LT_75_4_605_Can_Place_Flowers.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leet_Code_150_Interview_Questions/LT_150_2_P_88_Merge_Sorted_Array.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leet_Code_150_Interview_Questions/LT_150_2_P_88_Merge_Sorted_Array.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +49,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Kotlin.LT_150_1_28_Find_the_Index_of_the_First_Occurrence_in_a_StringKt.executor": "Run",
+    "Kotlin.LT_150_2_P_88_Merge_Sorted_ArrayKt.executor": "Run",
+    "Kotlin.LT_150_3_P_27_Remove_ElementKt.executor": "Debug",
+    "Kotlin.LT_150_4_26_Remove_Duplicates_from_Sorted_ArrayKt.executor": "Run",
     "Kotlin.LT_75_1_1768_Merge_Strings_AlternatelyKt.executor": "Run",
     "Kotlin.LT_75_3_1431_Kids_With_the_Greatest_Number_of_CandiesKt.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -54,9 +61,30 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Kotlin.LT_75_3_1431_Kids_With_the_Greatest_Number_of_CandiesKt">
-    <configuration name="LT_75_1_1768_Merge_Strings_AlternatelyKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leet_Code_75_Problems.LT_75_1_1768_Merge_Strings_AlternatelyKt" />
+  <component name="RunManager" selected="Kotlin.LT_150_4_26_Remove_Duplicates_from_Sorted_ArrayKt">
+    <configuration name="LT_150_1_P_28_Find_the_Index_of_the_First_Occurrence_in_a_StringKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leet_Code_150_Interview_Questions.LT_150_1_P_28_Find_the_Index_of_the_First_Occurrence_in_a_StringKt" />
+      <module name="LeetCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LT_150_2_P_88_Merge_Sorted_ArrayKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leet_Code_150_Interview_Questions.LT_150_2_P_88_Merge_Sorted_ArrayKt" />
+      <module name="LeetCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LT_150_3_P_27_Remove_ElementKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leet_Code_150_Interview_Questions.LT_150_3_P_27_Remove_ElementKt" />
+      <module name="LeetCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LT_150_4_26_Remove_Duplicates_from_Sorted_ArrayKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leet_Code_150_Interview_Questions.LT_150_4_26_Remove_Duplicates_from_Sorted_ArrayKt" />
       <module name="LeetCode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -71,8 +99,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.LT_150_4_26_Remove_Duplicates_from_Sorted_ArrayKt" />
+        <item itemvalue="Kotlin.LT_150_3_P_27_Remove_ElementKt" />
+        <item itemvalue="Kotlin.LT_150_2_P_88_Merge_Sorted_ArrayKt" />
+        <item itemvalue="Kotlin.LT_150_1_P_28_Find_the_Index_of_the_First_Occurrence_in_a_StringKt" />
         <item itemvalue="Kotlin.LT_75_3_1431_Kids_With_the_Greatest_Number_of_CandiesKt" />
-        <item itemvalue="Kotlin.LT_75_1_1768_Merge_Strings_AlternatelyKt" />
       </list>
     </recent_temporary>
   </component>
@@ -101,7 +132,55 @@
       <option name="project" value="LOCAL" />
       <updated>1726792162909</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Leet code problem 1431. Kids With the Greatest Number of Candies">
+      <option name="closed" value="true" />
+      <created>1727054149128</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1727054149128</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Leet code problem 28. Find the Index of the First Occurrence in a String">
+      <option name="closed" value="true" />
+      <created>1727976609097</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1727976609097</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Leet code problem 28. Find the Index of the First Occurrence in a String">
+      <option name="closed" value="true" />
+      <created>1727976669652</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1727976669652</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Leet code problem 88. Merge Sorted Array">
+      <option name="closed" value="true" />
+      <created>1728299977003</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1728299977004</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Leet code problem 88. Merge Sorted Array">
+      <option name="closed" value="true" />
+      <created>1728300009831</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1728300009831</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Leet code problem  28. Find the Index of the First Occurrence in a String">
+      <option name="closed" value="true" />
+      <created>1728300163611</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1728300163611</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -118,6 +197,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Leet code problem 1768. Merge Strings Alternately" />
     <MESSAGE value="Leet code problem 1071. Greatest Common Divisor of Strings" />
-    <option name="LAST_COMMIT_MESSAGE" value="Leet code problem 1071. Greatest Common Divisor of Strings" />
+    <MESSAGE value="Leet code problem 1431. Kids With the Greatest Number of Candies" />
+    <MESSAGE value="Leet code problem 28. Find the Index of the First Occurrence in a String" />
+    <MESSAGE value="Leet code problem 88. Merge Sorted Array" />
+    <MESSAGE value="Leet code problem  28. Find the Index of the First Occurrence in a String" />
+    <option name="LAST_COMMIT_MESSAGE" value="Leet code problem  28. Find the Index of the First Occurrence in a String" />
   </component>
 </project>

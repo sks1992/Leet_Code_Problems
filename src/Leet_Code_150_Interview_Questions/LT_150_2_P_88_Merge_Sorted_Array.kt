@@ -57,7 +57,7 @@ fun main() {
     println(nums1.contentToString())
 }
 
-// time complexity  = O(m)
+// time complexity  = O(nums.length)
 // Space complexity = O(1)
 fun merge(nums1: IntArray, nums2: IntArray, m: Int, n: Int) {
     var i = m - 1
