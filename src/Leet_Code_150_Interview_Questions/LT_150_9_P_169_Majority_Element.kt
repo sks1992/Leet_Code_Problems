@@ -32,9 +32,9 @@ n == nums.length
 
 Follow-up: Could you solve the problem in linear time and in O(1) space?
 
-* */
-fun main(){
-    val nums= intArrayOf(2,2,1,1,1,2,2)
+ * */
+fun main() {
+    val nums = intArrayOf(2, 2, 1, 1, 1, 2, 2)
     println(majorityElement(nums))
 }
 
@@ -55,4 +55,28 @@ fun majorityElement(nums: IntArray): Int {
         }
     }
     return candidate
+}
+
+
+class Solution {
+    fun rotate(nums: IntArray, k: Int): Unit {
+        val m = nums.size
+        if (m == 1) return
+        val k1 = if (k > m) k % m else k
+        reverse(nums, 0, m - 1)
+        reverse(nums, 0, k1 - 1)
+        reverse(nums, k1, m - 1)
+    }
+
+    fun reverse(nums: IntArray, start: Int, end: Int) {
+        var s = start
+        var e = end
+        while (s <= e) {
+            val temp = nums[s]
+            nums[s] = nums[e]
+            nums[e] = temp
+            s++
+            e--
+        }
+    }
 }

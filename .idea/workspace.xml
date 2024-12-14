@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c07206c1-63c5-407f-9c9a-d042e3c2767b" name="Changes" comment="Leet code problem 392. Is Subsequence">
-      <change afterPath="$PROJECT_DIR$/src/Leet_Code_150_Interview_Questions/LT_150_9_P_169_.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leet_Code_150_Interview_Questions/container.kt" afterDir="false" />
+    <list default="true" id="c07206c1-63c5-407f-9c9a-d042e3c2767b" name="Changes" comment="Leet code problem 80,169">
+      <change afterPath="$PROJECT_DIR$/src/Leet_Code_150_Interview_Questions/LT_150_10_P_189_Rotate_Array.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leet_Code_150_Interview_Questions/LT_150_5_P_80_Remove_Duplicates_from_Sorted_Array_II.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leet_Code_150_Interview_Questions/LT_150_5_P_80_Remove_Duplicates_from_Sorted_Array_II.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leet_Code_150_Interview_Questions/LT_150_9_P_169_Majority_Element.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leet_Code_150_Interview_Questions/LT_150_9_P_169_Majority_Element.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -47,35 +46,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Kotlin.LT_150_1_28_Find_the_Index_of_the_First_Occurrence_in_a_StringKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.LT_150_2_P_88_Merge_Sorted_ArrayKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.LT_150_3_P_27_Remove_ElementKt.executor&quot;: &quot;Debug&quot;,
-    &quot;Kotlin.LT_150_4_26_Remove_Duplicates_from_Sorted_ArrayKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.LT_150_5_P_80_Remove_Duplicates_from_Sorted_Array_IIKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.LT_150_6_P_58_Length_of_Last_WordKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.LT_150_8_P_392_Is_SubsequenceKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.LT_75_1_1768_Merge_Strings_AlternatelyKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.LT_75_3_1431_Kids_With_the_Greatest_Number_of_CandiesKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.ValidKt.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Kotlin.LT_150_10_P_189_Rotate_ArrayKt.executor": "Run",
+    "Kotlin.LT_150_1_28_Find_the_Index_of_the_First_Occurrence_in_a_StringKt.executor": "Run",
+    "Kotlin.LT_150_2_P_88_Merge_Sorted_ArrayKt.executor": "Run",
+    "Kotlin.LT_150_3_P_27_Remove_ElementKt.executor": "Debug",
+    "Kotlin.LT_150_4_26_Remove_Duplicates_from_Sorted_ArrayKt.executor": "Run",
+    "Kotlin.LT_150_5_P_80_Remove_Duplicates_from_Sorted_Array_IIKt.executor": "Run",
+    "Kotlin.LT_150_6_P_58_Length_of_Last_WordKt.executor": "Run",
+    "Kotlin.LT_150_8_P_392_Is_SubsequenceKt.executor": "Run",
+    "Kotlin.LT_150_9_P_169_Kt.executor": "Run",
+    "Kotlin.LT_150_9_P_169_Majority_ElementKt.executor": "Run",
+    "Kotlin.LT_75_1_1768_Merge_Strings_AlternatelyKt.executor": "Run",
+    "Kotlin.LT_75_3_1431_Kids_With_the_Greatest_Number_of_CandiesKt.executor": "Run",
+    "Kotlin.ValidKt.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true"
   }
-}</component>
-  <component name="RunManager" selected="Kotlin.LT_150_9_P_169_Majority_ElementKt">
-    <configuration name="LT_150_5_P_80_Remove_Duplicates_from_Sorted_Array_IIKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leet_Code_150_Interview_Questions.LT_150_5_P_80_Remove_Duplicates_from_Sorted_Array_IIKt" />
+}]]></component>
+  <component name="RunManager" selected="Kotlin.LT_150_10_P_189_Rotate_ArrayKt">
+    <configuration name="LT_150_10_P_189_Rotate_ArrayKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leet_Code_150_Interview_Questions.LT_150_10_P_189_Rotate_ArrayKt" />
       <module name="LeetCode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LT_150_6_P_58_Length_of_Last_WordKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leet_Code_150_Interview_Questions.LT_150_6_P_58_Length_of_Last_WordKt" />
+    <configuration name="LT_150_5_P_80_Remove_Duplicates_from_Sorted_Array_IIKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leet_Code_150_Interview_Questions.LT_150_5_P_80_Remove_Duplicates_from_Sorted_Array_IIKt" />
       <module name="LeetCode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -104,11 +106,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.LT_150_10_P_189_Rotate_ArrayKt" />
         <item itemvalue="Kotlin.LT_150_9_P_169_Majority_ElementKt" />
         <item itemvalue="Kotlin.LT_150_5_P_80_Remove_Duplicates_from_Sorted_Array_IIKt" />
         <item itemvalue="Kotlin.LT_150_8_P_392_Is_SubsequenceKt" />
         <item itemvalue="Kotlin.LT_150_7_P_125_Valid_PalindromeKt" />
-        <item itemvalue="Kotlin.LT_150_6_P_58_Length_of_Last_WordKt" />
       </list>
     </recent_temporary>
   </component>
@@ -225,7 +227,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731040859309</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Leet code problem 80,169">
+      <option name="closed" value="true" />
+      <created>1734180737792</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1734180737792</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -250,6 +260,7 @@
     <MESSAGE value="Leet code problems" />
     <MESSAGE value="Leet code problem 125. Valid Palindrome" />
     <MESSAGE value="Leet code problem 392. Is Subsequence" />
-    <option name="LAST_COMMIT_MESSAGE" value="Leet code problem 392. Is Subsequence" />
+    <MESSAGE value="Leet code problem 80,169" />
+    <option name="LAST_COMMIT_MESSAGE" value="Leet code problem 80,169" />
   </component>
 </project>
