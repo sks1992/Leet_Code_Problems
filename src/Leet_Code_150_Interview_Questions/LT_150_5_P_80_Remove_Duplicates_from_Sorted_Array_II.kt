@@ -56,22 +56,23 @@ nums is sorted in non-decreasing order.
 * */
 
 fun main() {
-
+    val arr = intArrayOf(0, 0, 1, 1, 1, 1, 2, 3, 3)
+    println(removeDuplicateInSortedArray2(arr))
 }
 
+/**
+ * approach =>
+ * */
+
+//time complexity = O(n)
+//space complexity = O(1)
 fun removeDuplicateInSortedArray2(arr: IntArray): Int {
-    var k = 0
-
-    for (index in 1 until arr.size) {
-        var count = 0
-        if(count < 2){
-            if (arr[k] != arr[index]) {
-                k++
-                arr[k] = arr[index]
-                count =3
-            }
+    var i = 0
+    for (e in arr) {
+        if (i < 2 || e != arr[i-2]) {
+            arr[i++] = e
+            arr.size
         }
-
     }
-    return k + 1
+    return i
 }
